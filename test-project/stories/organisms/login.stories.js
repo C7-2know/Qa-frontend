@@ -2,7 +2,7 @@ import Login from '../../components/Organisms/Login.vue';
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'Pages/Login',
+  title: 'Components/Organisms/Login',
   component: Login,
   argTypes: {
     email: { control: 'text', description: 'The email input for login' },
