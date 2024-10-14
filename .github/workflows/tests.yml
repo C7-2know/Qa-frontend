@@ -1,4 +1,4 @@
-name: Cypress E2E Test
+name: Cypress E2E Test and Chromatic Visual regression Test
 
 on:
   pull_request:
