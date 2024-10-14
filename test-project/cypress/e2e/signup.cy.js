@@ -2,7 +2,7 @@ describe('Sign up modal test', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000/') // Visit the base URL where application is running
     cy.wait(2000);
-    cy.get('.relative > div > .bg-black').click();
+    cy.get('.absolute > .relative > .bg-black').click();
   })
   it('should open the sign up modal when clicking enter button from the login model', () => {
     cy.get('.container > .bg-black').click();
