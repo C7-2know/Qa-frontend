@@ -32,3 +32,4 @@ describe('Login Modal test', () => {
     cy.contains('Enter Your Details').should('exist');
   })  
 
+})
